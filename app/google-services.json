@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "641831411555",
+    "firebase_url": "https://studentski-poslovi.firebaseio.com",
+    "project_id": "studentski-poslovi",
+    "storage_bucket": "studentski-poslovi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641831411555:android:d7f2a07274efbd0b",
+        "android_client_info": {
+          "package_name": "objavi.samo.android.studentskiposlovi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641831411555-dtq09rg67uclnjkmrjp16312btri2uum.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "objavi.samo.android.studentskiposlovi",
+            "certificate_hash": "da02e723782abed9c811ad35d5d4ea00ba140ef9"
+          }
+        },
+        {
+          "client_id": "641831411555-nr4nss4c14bt909cbvop8dtkc0rn08n9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdBb2XXLpUx4T3b34vuV9sOceuhpJO7YU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641831411555-nr4nss4c14bt909cbvop8dtkc0rn08n9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

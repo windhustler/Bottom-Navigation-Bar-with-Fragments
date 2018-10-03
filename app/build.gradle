@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "objavi.samo.android.studentskiposlovi"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        resConfigs "en"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.google.android.gms:play-services-auth:16.0.0'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //Design library for Coordinator Layout and Toolbars
+    implementation "com.android.support:design:27.1.1"
+
+    //BottomNavigationViewEx Library for custom bottom navigation view
+    implementation 'com.github.ittianyu:BottomNavigationViewEx:1.2.4'
+
+    // material ripple layout
+    implementation 'com.balysv:material-ripple:1.0.2'
+
+    // recycler view
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+
+    // image loader
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+
+    // Firebase
+    implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
+    implementation 'com.firebaseui:firebase-ui-database:4.1.0'
+    implementation 'com.google.android.gms:play-services-auth:16.0.0'
+    implementation 'com.google.firebase:firebase-messaging:17.3.2'
+    implementation 'com.google.firebase:firebase-database:16.0.2'
+    implementation 'com.google.firebase:firebase-auth:16.0.3'
+    implementation 'com.google.firebase:firebase-core:16.0.3'
+
+    // recycler view
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.1.0'
+
+
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Studentski Poslovi</string>
+
+    <!-- fragment tags -->
+    <string name="fragment_home">Fragment Home</string>
+    <string name="fragment_profile">Fragment Profile</string>
+    <string name="fragment_settings">Fragment Settings</string>
+    <string name="fragment_info">Fragment Info</string>
+
+</resources>
